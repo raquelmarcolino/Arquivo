@@ -1,70 +1,164 @@
 <!doctype html>
 <html lang="pt">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portfólio – Raquel Marcolino</title>
-  <style>
-    body { font-family: Arial, sans-serif; line-height: 1.5; max-width: 1000px; margin: 28px auto; padding: 0 16px; }
-    header { margin-bottom: 18px; }
-    h1 { margin: 0 0 6px; }
-    .sub { margin: 0; color: #555; }
-    .section { margin-top: 22px; }
-    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 12px; }
-    .card { border: 1px solid #e6e6e6; border-radius: 12px; padding: 14px; text-decoration: none; color: inherit; }
-    .card:hover { border-color: #cfcfcf; }
-    .title { font-size: 18px; font-weight: 700; margin: 0 0 6px; }
-    .hint { margin: 0; color: #444; font-size: 14px; }
-    .list { margin: 10px 0 0; padding-left: 18px; }
-    .list li { margin: 6px 0; }
-    .note { background: #f7f7f7; border: 1px solid #eaeaea; padding: 12px; border-radius: 12px; margin-top: 10px; color: #333; }
-    footer { margin-top: 26px; color: #666; font-size: 13px; }
-    code { background: #f2f2f2; padding: 0 6px; border-radius: 6px; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Portfólio – Raquel Marcolino</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+max-width:1000px;
+margin:auto;
+line-height:1.5;
+}
+
+h1{
+margin-bottom:5px;
+}
+
+.sub{
+color:#555;
+margin:2px 0;
+}
+
+.section{
+margin-top:30px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:12px;
+margin-top:15px;
+}
+
+.card{
+border:1px solid #ddd;
+border-radius:10px;
+padding:14px;
+text-decoration:none;
+color:inherit;
+}
+
+.card:hover{
+border-color:#999;
+}
+
+.year{
+font-size:20px;
+font-weight:bold;
+}
+
+footer{
+margin-top:40px;
+font-size:13px;
+color:#666;
+}
+
+</style>
 </head>
+
 <body>
 
-  <header>
-    <h1>Portfólio</h1>
-    <p class="sub"><strong>Raquel Marcolino</strong></p>
-    <p class="sub">Organização alinhada com o Curriculum Profissional: <strong>Formação Académica</strong> e <strong>Formação Contínua</strong>.</p>
-  </header>
+<header>
 
-  <!-- FORMAÇÃO ACADÉMICA -->
-  <section class="section" id="formacao-academica">
-    <h2>Formação Académica</h2>
-    <div class="note">
-      Aqui colocaremos os documentos-chave (ex.: diplomas, certificados de grau, suplementos ao diploma, declarações oficiais).
-      <br/>Quando quiseres, criamos a pasta <code>formacao-academica/</code> e uma página própria.
-    </div>
+<h1>Portfólio</h1>
 
-    <div class="cards">
-      <!-- Por agora fica como "placeholder" até organizarmos os PDFs -->
-      <a class="card" href="./diplomas/">
-        <p class="title">Diplomas / Certificados</p>
-        <p class="hint">Acesso direto à pasta de diplomas (se existir).</p>
-      </a>
-    </div>
-  </section>
+<p class="sub"><strong>Raquel Marcolino</strong></p>
 
-  <!-- FORMAÇÃO CONTÍNUA -->
-  <section class="section" id="formacao-continua">
-    <h2>Formação Contínua</h2>
-    <p class="sub">Certificados e comprovativos organizados por ano.</p>
+<p class="sub">
+Enfermeira Especialista em Saúde Materna e Obstétrica
+</p>
 
-    <div class="cards">
-      <a class="card" href="./2009/"><p class="title">2009</p><p class="hint">Formação / SPSS</p></a>
-      <a class="card" href="./2010/"><p class="title">2010</p><p class="hint">Congressos / palestras</p></a>
-      <a class="card" href="./2011/"><p class="title">2011</p><p class="hint">Workshops / eventos</p></a>
-      <a class="card" href="./2012/"><p class="title">2012</p><p class="hint">Workshops</p></a>
-      <a class="card" href="./2013/"><p class="title">2013</p><p class="hint">Jornadas / poster / cursos</p></a>
-      <a class="card" href="./2014/"><p class="title">2014</p><p class="hint">Cursos / simpósios</p></a>
-      <a class="card" href="./2015/"><p class="title">2015</p><p class="hint">Congresso</p></a>
+<p class="sub">
+Provas Públicas para obtenção do Título de Especialista
+</p>
 
-      <a class="card" href="./2020/"><p class="title">2020</p><p class="hint">Formação / COVID</p></a>
-      <a class="card" href="./2021/"><p class="title">2021</p><p class="hint">Formação / mérito</p></a>
-      <a class="card" href="./2022/"><p class="title">2022</p><p class="hint">Gestão / prevenção infeção</p></a>
-      <a class="card" href="./2023/"><p class="title">2023</p><p class="hint">Eventos científicos</p></a>
+<p class="sub">
+Formação Académica e Formação Contínua
+</p>
+
+</header>
+
+
+<div class="section">
+
+<h2>Formação Académica</h2>
+
+<p>
+Nesta secção encontram-se os diplomas e certificações académicas que comprovam o percurso formativo.
+</p>
+
+<div class="grid">
+
+<a class="card" href="./formacao-academica/">
+<div class="year">Diplomas</div>
+</a>
+
+</div>
+
+</div>
+
+
+
+<div class="section">
+
+<h2>Formação Contínua</h2>
+
+<p>
+Certificados e comprovativos de formação contínua organizados por ano.
+</p>
+
+<div class="grid">
+
+<a class="card" href="./2009/"><div class="year">2009</div></a>
+
+<a class="card" href="./2010/"><div class="year">2010</div></a>
+
+<a class="card" href="./2011/"><div class="year">2011</div></a>
+
+<a class="card" href="./2012/"><div class="year">2012</div></a>
+
+<a class="card" href="./2013/"><div class="year">2013</div></a>
+
+<a class="card" href="./2014/"><div class="year">2014</div></a>
+
+<a class="card" href="./2015/"><div class="year">2015</div></a>
+
+<a class="card" href="./2016/"><div class="year">2016</div></a>
+
+<a class="card" href="./2017/"><div class="year">2017</div></a>
+
+<a class="card" href="./2018/"><div class="year">2018</div></a>
+
+<a class="card" href="./2019/"><div class="year">2019</div></a>
+
+<a class="card" href="./2020/"><div class="year">2020</div></a>
+
+<a class="card" href="./2021/"><div class="year">2021</div></a>
+
+<a class="card" href="./2022/"><div class="year">2022</div></a>
+
+<a class="card" href="./2023/"><div class="year">2023</div></a>
+
+<a class="card" href="./2024/"><div class="year">2024</div></a>
+
+</div>
+
+</div>
+
+
+<footer>
+
+© Portfólio – Raquel Marcolino
+
+</footer>
+
+</body>
+</html>      <a class="card" href="./2023/"><p class="title">2023</p><p class="hint">Eventos científicos</p></a>
       <a class="card" href="./2024/"><p class="title">2024</p><p class="hint">Inovação / amamentação</p></a>
     </div>
 
