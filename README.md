@@ -1,4 +1,4 @@
-# Portefólio Profissional  
+# Portfólio Profissional  
 **Raquel Marcolino**
 
 Enfermeira Especialista em Saúde Materna e Obstétrica  
@@ -29,7 +29,7 @@ Provas Públicas para obtenção do Título de Especialista
 
 ---
 
-## 📊 Investigação
+## 📊 Formação & Investigação
 
 - [SPSS 2009](./2009/SPSS/)
 
